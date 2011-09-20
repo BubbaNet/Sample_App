@@ -96,9 +96,9 @@ a.signup_button {
 /* round corners */
 
 .round {
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+	-moz-border-radius: 10px;			/*	Camino 2.0.1, Firefox 3.6.12		*/
+	-webkit-border-radius: 10px;	/*	?		*/
+	border-radius: 10px;					/*	Opera 10.62, IE?, Safari 5.0.5,	*/
 }
 
 footer {
